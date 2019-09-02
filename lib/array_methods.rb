@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  current = array[0] 
+  current = array.first 
   array.each do |elem|
     current = elem if elem > current
   end
@@ -14,7 +14,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  current = array[0]
+  current = array.first
   array.each do |elem|
     current = elem if current > elem
   end
