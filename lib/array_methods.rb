@@ -6,7 +6,10 @@ end
 
 def find_max_value(array)
   current = 0 
-  array
+  array.each do |elem|
+    current = elem if elem > current
+  end
+  current
 end
 
 def find_min_value(array)
