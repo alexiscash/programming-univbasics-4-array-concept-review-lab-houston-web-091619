@@ -18,4 +18,4 @@ end
 
 numbers = [1,2,3,4]
 
-puts find_element_index(numbers, 5)
+puts find_element_index(numbers, 6)
